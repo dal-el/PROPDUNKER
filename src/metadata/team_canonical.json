@@ -1,0 +1,62 @@
+{
+  "anadolu_efes": {
+    "display": "Anadolu Efes"
+  },
+  "as_monaco": {
+    "display": "AS Monaco"
+  },
+  "baskonia": {
+    "display": "Baskonia"
+  },
+  "crvena_zvezda": {
+    "display": "Crvena Zvezda"
+  },
+  "dubai": {
+    "display": "Dubai Basketball"
+  },
+  "olimpia_milano": {
+    "display": "Olimpia Milano"
+  },
+  "fc_barcelona": {
+    "display": "FC Barcelona"
+  },
+  "fc_bayern": {
+    "display": "FC Bayern Munich"
+  },
+  "fenerbahce": {
+    "display": "Fenerbahce"
+  },
+  "hapoel_tel_aviv": {
+    "display": "Hapoel Tel Aviv"
+  },
+  "asvel": {
+    "display": "LDLC ASVEL Villeurbanne"
+  },
+  "maccabi_tel_aviv": {
+    "display": "Maccabi Tel Aviv"
+  },
+  "olympiacos": {
+    "display": "Olympiacos"
+  },
+  "panathinaikos": {
+    "display": "Panathinaikos"
+  },
+  "paris": {
+    "display": "Paris Basketball"
+  },
+  "partizan": {
+    "display": "Partizan"
+  },
+  "real_madrid": {
+    "display": "Real Madrid"
+  },
+  "valencia": {
+    "display": "Valencia Basket"
+  },
+  "virtus_bologna": {
+    "display": "Virtus Bologna"
+  },
+  "zalgiris": {
+    "display": "Zalgiris Kaunas"
+  }
+}

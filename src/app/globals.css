@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  color-scheme: dark;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-bg text-white;
+  font-feature-settings: "ss01" 1, "ss02" 1;
+}
+
+* { -webkit-tap-highlight-color: transparent; }
+
+.scrollbar-thin::-webkit-scrollbar{ height: 10px; width: 10px; }
+.scrollbar-thin::-webkit-scrollbar-thumb{ background: rgba(255,255,255,0.14); border-radius: 999px; }
+.scrollbar-thin::-webkit-scrollbar-track{ background: rgba(255,255,255,0.04); }
+
+.badge {
+  @apply inline-flex items-center justify-center rounded-full px-2 py-0.5 text-[11px] leading-none border border-stroke bg-soft;
+}
+
+.badge-strong {
+  @apply border-amber-400/40 bg-amber-400/10;
+}
+
+.pill {
+  @apply inline-flex items-center justify-center rounded-full px-3 py-1 text-[12px] border border-stroke bg-soft;
+}
+
+.pill-pos { @apply border-emerald-400/35 bg-emerald-400/10 text-emerald-200; }
+.pill-neg { @apply border-rose-400/35 bg-rose-400/10 text-rose-200; }
+.pill-neu { @apply border-white/10 bg-white/5 text-white/80; }
+
+
+/* Hide scrollbars without breaking layout */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }

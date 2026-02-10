@@ -1,0 +1,21 @@
+{
+  "name": "PROPDUNKER Premium Dark Gold",
+  "colors": {
+    "background": "#0B0F1A",
+    "panel": "#11162A",
+    "gold": "#F5C77A",
+    "goldGlow": "#FFDFA3",
+    "greenHit": "#2ED573",
+    "redMiss": "#E74C3C",
+    "textPrimary": "#E6E8EF",
+    "textMuted": "#9AA0B5"
+  },
+  "shadows": {
+    "panel": "0 20px 40px rgba(0,0,0,0.6)",
+    "glow": "0 0 12px rgba(245,199,122,0.35)"
+  },
+  "radius": {
+    "card": 14,
+    "bar": 6
+  }
+}

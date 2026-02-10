@@ -1,0 +1,28 @@
+:root {
+  --bg-main: #0B0F1A;
+  --bg-panel: #11162A;
+  --gold: #F5C77A;
+  --gold-glow: rgba(245,199,122,0.35);
+  --hit: #2ED573;
+  --miss: #E74C3C;
+  --text-main: #E6E8EF;
+  --text-muted: #9AA0B5;
+}
+
+.premium-panel {
+  background: linear-gradient(180deg, #11162A, #0B0F1A);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+  border-radius: 14px;
+}
+
+.premium-gold-line {
+  box-shadow: 0 0 12px var(--gold-glow);
+}
+
+.premium-bar-hit {
+  background: linear-gradient(180deg, #3AF58B, #1FAF5D);
+}
+
+.premium-bar-miss {
+  background: linear-gradient(180deg, #F06A5C, #B73A2F);
+}
