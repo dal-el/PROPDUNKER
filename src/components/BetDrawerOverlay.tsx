@@ -1507,7 +1507,7 @@ export function BetDrawerOverlay({
 
       const projectedStat =
         projectionEnabled && typeof minutesRaw === "number" && Number.isFinite(minutesRaw) && minutesRaw > 0
-          ? Math.max(0, (baseStat / minutesRaw) * projectedMinutes)
+          ? Math.max(0, (baseStat / minutesRaw) * (projectedMinutes ?? minutesRaw))
           : baseStat;
 
       return {
